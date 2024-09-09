@@ -2927,7 +2927,8 @@ console.log(`Vitesse moyenne => ${formatToAverageSpeed(avg)}`);
 console.log("");
 
 // Personnal stats
+console.log("Mario :");
 const myStats = stats.find((e) => e.name === "Mario Vieilledent");
-console.log(myStats);
-console.log(formatTime(myStats.time));
-console.log(formatToAverageSpeed(myStats.time));
+console.log(`Temps => ${formatTime(myStats.time)}`);
+console.log(`Vitesse moyenne => ${formatToAverageSpeed(myStats.time)}`);
+console.log("");
